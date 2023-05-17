@@ -1,0 +1,88 @@
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    "header header header header header"
+    "aside-one main main main aside-two"
+    "aside-one main main main aside-two"
+    "footer footer footer footer footer"
+  ;
+  min-height: 80vh;
+  margin-top: 4rem;
+  gap: 0.5rem;
+}
+
+.grid-item {
+  text-indent: 50px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.aside-one {
+  grid-area: aside-one;
+}
+
+.aside-two {
+  grid-area: aside-two;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.shadow {
+  text-shadow: 2px 2px black
+}
+
+.border {
+  border-style: groove;
+  border-color: black;
+}
+
+.core {
+ background-image: url(../media/images/background.jfif);
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ font-family: "Georgia", Times, serif;
+ color: rgb(255, 255, 255);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.link {
+  font-family: "Verdana", sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.quote {
+  font-family: "Brush Script MT", cursive;
+  text-align: center;
+  color: gold;
+  text-shadow: 2px 2px black;
+}
+
+.bgc {
+  background-color:#9BA4B5
+}
+
+.nav-grid {
+	display: grid;
+	gri-template-columns: auto, auto, auto
+}
